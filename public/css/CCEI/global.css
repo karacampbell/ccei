@@ -153,6 +153,13 @@ hr {
 #wb-sm .menu > li a:hover {
   background: #444 !important;
 }
+.ccei-mobile-menu .menu-icon {
+  font-size: 1.8em;
+}
+.ccei-mobile-menu span.glyphicon {
+  display: none;
+}
+
 
 @media screen and (max-width: 1199px) {
   #wb-sm .menu {
