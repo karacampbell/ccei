@@ -317,7 +317,7 @@ details[open] {
   overflow: hidden;
   border: 1px solid #ccc;
 }
-.highlight-card a {
+.highlight-card a.btn-share {
   position: absolute;
   font-size: 1.25em;
   padding: 5px 12px;
@@ -376,7 +376,7 @@ details[open] {
   overflow: hidden;
   border: 1px solid #ccc;
 }
-.publication-card a {
+.publication-card a.btn-share {
   position: absolute;
   font-size: 1.25em;
   padding: 5px 12px;
