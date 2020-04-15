@@ -59,8 +59,15 @@ hr {
   background-color: #444444;
 }
 #subheader .ccei-logo {
+  text-decoration: none;
+}
+#subheader .ccei-logo>img {
   height: 45px;
   margin: 10px 0px;
+}
+#subheader .ccei-logo>span {
+  padding-left: 8px;
+  color: white;
 }
 #srch-bar button {
   padding: 10px 14px;
