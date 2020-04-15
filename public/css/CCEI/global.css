@@ -64,9 +64,9 @@ hr {
 #subheader .ccei-logo>img {
   height: 45px;
   margin: 10px 0px;
+  padding-right: 8px;
 }
 #subheader .ccei-logo>span {
-  padding-left: 8px;
   color: white;
 }
 #srch-bar button {
@@ -370,7 +370,7 @@ details[open] {
 .indicator-card {
   padding: 8px;
   font-size: 1.125em;
-  width: 250px;
+  width: 225px;
 }
 .indicator-card .indicator {
   padding: 16px;
@@ -378,6 +378,10 @@ details[open] {
   margin-bottom: 12px;
   display: flex;
   justify-content: space-between;
+}
+.indicator-card p {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .indicator-card .indicator.up {
   background-color: #dff0d8;
