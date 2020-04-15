@@ -125,6 +125,8 @@ hr {
   padding: 0;
   line-height: 1.8em;
   white-space: nowrap;
+  padding-left: 1.5em;
+  text-indent:-1.5em;
 }
 #wb-sm .sm.open li a[aria-haspopup="true"] {
   text-decoration: none;
@@ -160,10 +162,18 @@ hr {
   display: none;
 }
 
-
 @media screen and (max-width: 1199px) {
   #wb-sm .menu {
     border: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ccei-mobile-menu {
+    width: 100vw !important;
+  }
+  #wb-sm .sm.open li a {
+    white-space: normal;
   }
 }
 
