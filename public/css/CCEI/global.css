@@ -147,8 +147,6 @@ hr {
   padding: 0;
   line-height: 1.8em;
   white-space: nowrap;
-  padding-left: 1.5em;
-  text-indent:-1.5em;
 }
 #wb-sm .sm.open ul {
   padding: 0;
@@ -221,6 +219,7 @@ hr {
   background-color: #26374a;
   color: white;
   text-decoration: none;
+  padding: 16px;
 }
 #wb-sm .ccei-mobile-menu .sm.open>li>a:hover,
 #wb-sm .ccei-mobile-menu .sm.open>li>a:focus {
