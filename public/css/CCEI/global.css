@@ -232,6 +232,7 @@ hr {
   color: white;
   text-decoration: none;
   padding: 16px;
+  width: 100%;
 }
 #wb-sm .ccei-mobile-menu .sm.open>li>a:hover,
 #wb-sm .ccei-mobile-menu .sm.open>li>a:focus {
