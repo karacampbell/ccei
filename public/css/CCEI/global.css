@@ -130,7 +130,8 @@ hr {
 #wb-sm .sm.open {
   background-color: white;
   border: 1px solid #ccc;
-  padding: 16px;
+  width: auto;
+  min-width: 300px;
 }
 #wb-sm .menu > li {
   height: 100%;
@@ -141,12 +142,14 @@ hr {
   display: flex;
   align-items: center;
 }
+#wb-sm .sm-open li {
+  padding: 8px 16px;
+  border-top: 1px solid #ccc;
+}
 #wb-sm .sm.open li a {
   text-decoration: underline;
   color: #284162;
-  padding: 0;
-  line-height: 1.8em;
-  white-space: nowrap;
+  display: inline-block;
 }
 #wb-sm .sm.open ul {
   padding: 0;
@@ -190,12 +193,21 @@ hr {
   padding: 0;
   border: none;
 }
+#wb-sm .ccei-mobile-menu .sm.open>li {
+  padding: 0;
+  border: none;
+}
 #wb-sm .sm.open li details {
   padding: 0;
 }
-#wb-sm .sm.open li details ul li{
+#wb-sm .sm.open li details ul li {
   padding: 8px 16px;
   border-top: 1px solid #ccc;
+}
+#wb-sm .sm.open li details ul li:last-child {
+  padding: 8px 16px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 #wb-sm .sm.open li summary {
   background-color: #26374a;
