@@ -2,7 +2,7 @@ $(document).on("wb-ready.wb", function(event) {
   /*** HEADER ***/
   $("#header-srch>button").on("click", function() {
     $("#srch-bar").slideToggle(400, function() {
-      $("#search-bar input").focus();
+      $("#srch-bar input").focus();
     });
   });
 
