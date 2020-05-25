@@ -501,7 +501,7 @@ details[open] {
 .topic-lnk {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   text-decoration: none;
   height: 8em;
 }
@@ -509,7 +509,9 @@ details[open] {
   background-color: #eee;
 }
 .topic-lnk i {
+  height: 2rem;
   margin-bottom: 16px;
+  margin-top: 16px;
   font-size: 2.5em;
 }
 .topic-lnk:hover span,
