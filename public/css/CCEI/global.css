@@ -14,6 +14,14 @@ main {
 hr {
   border-color: #ccc;
 }
+#ccei-welcome-banner {
+  background-color: #404f60;
+  color: #fff;
+  padding: 16px 0px;
+}
+#ccei-welcome-banner p{
+  max-width: 700px;
+}
 #footer,
 #header {
   color: white;
@@ -28,7 +36,7 @@ hr {
   align-items: center;
 }
 #subheader{
-  background: #404f60;
+  background: #f8f8f8;
 }
 #footer {
   padding-top: 16px;
@@ -64,14 +72,14 @@ hr {
 #subheader .ccei-logo>img {
   height: 45px;
   margin: 24px 0px;
-  padding-right: 16px;
+  padding: 4px 16px 4px 0px;
 }
 #subheader .slogan-container {
   padding-left: 16px;
-  border-left: 1px solid white;
+  border-left: 1px solid #26374a;
 }
 #subheader .slogan-container>span {
-  color: white;
+  font-weight: 600;
   display: block;
 }
 #srch-bar button {
