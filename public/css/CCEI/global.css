@@ -76,9 +76,9 @@ hr {
   text-decoration: none;
 }
 #subheader .ccei-logo>img {
-  height: 45px;
-  margin: 24px 0px;
-  padding: 4px 16px 4px 0px;
+  height: 64px;
+  margin: 32px 0px;
+  padding-right: 16px;
 }
 #subheader .slogan-container {
   padding-left: 16px;
@@ -520,6 +520,7 @@ details[open] {
   text-decoration: none;
   padding: 16px 0px;
   height: 100%;
+  text-align: center;
 }
 .topic-lnk:hover {
   background-color: #eee;
