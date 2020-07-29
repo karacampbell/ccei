@@ -19,7 +19,13 @@ hr {
   color: #fff;
   padding: 16px 0px;
 }
-#ccei-welcome-banner p{
+#ccei-welcome-banner h1 {
+  border-bottom: none;
+  font-size: 2em;
+  margin-top: 10px;
+  font-weight: 500;
+}
+#ccei-welcome-banner p {
   max-width: 700px;
 }
 #footer,
