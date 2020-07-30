@@ -36,6 +36,9 @@ hr {
 #ccei-welcome-banner a {
   color: white;
 }
+#ccei-welcome-banner a.home-lnk {
+  text-decoration: none;
+}
 #footer,
 #header {
   color: white;
