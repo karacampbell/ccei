@@ -33,6 +33,9 @@ hr {
   max-width: 700px;
   padding-top: 8px;
 }
+#ccei-welcome-banner a {
+  color: white;
+}
 #footer,
 #header {
   color: white;
