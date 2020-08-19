@@ -30,7 +30,7 @@ hr {
   font-weight: 500;
 }
 #ccei-welcome-banner p {
-  max-width: 700px;
+  max-width: 1140px;
   padding-top: 8px;
 }
 #ccei-welcome-banner a {
@@ -88,7 +88,7 @@ hr {
 }
 #subheader .ccei-logo>img {
   height: 64px;
-  margin: 48px 0px;
+  margin: 48px 0px 24px 0px;
   padding-right: 16px;
   border-right: 1px solid #26374a;
 }
@@ -110,7 +110,7 @@ hr {
   }
   #subheader .slogan-container {
     padding: 0;
-    margin-bottom: 48px;
+    margin-bottom:24px;
   }
 }
 #srch-bar button {
