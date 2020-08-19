@@ -85,10 +85,11 @@ hr {
 }
 #subheader .ccei-logo {
   text-decoration: none;
+  margin-top: 24px;
 }
 #subheader .ccei-logo>img {
   height: 64px;
-  margin: 48px 0px 24px 0px;
+  margin: 24px 0px;
   padding-right: 16px;
   border-right: 1px solid #26374a;
 }
@@ -110,7 +111,7 @@ hr {
   }
   #subheader .slogan-container {
     padding: 0;
-    margin-bottom:24px;
+    margin-bottom: 24px;
   }
 }
 #srch-bar button {
